@@ -21,6 +21,6 @@ jobs:
     - name: run command
       run: echo Hello
     
-    - name: run command only if scheduled
-      run: echo Hello
-      if: ${{ github.event.schedule }}
+    #- name: run command only if scheduled
+    #  run: echo Hello
+    #  if: ${{ github.event.schedule }}
