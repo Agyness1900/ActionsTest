@@ -7,20 +7,12 @@ on:
     - main
     - release/pino*
   #schedule:
-    #- cron: 0-29/10 * * * *
-      #This has a time zone
     #- cron: 43 9-16/2 * * 1-5 #this is a comment
-    #- cron: "*/15 * * * *"
-    #- cron: "*/5 * * * *"
-
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - name: run command
-      run: echo Hello
+      run: echo Pushed Code
     
-    #- name: run command only if scheduled
-    #  run: echo Hello
-    #  if: ${{ github.event.schedule }}
+
