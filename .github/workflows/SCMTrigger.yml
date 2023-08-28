@@ -1,4 +1,4 @@
-name: n3wt0n-SCMTrigger
+name: SCMTrigger
 on:
   workflow_dispatch:
   push:
