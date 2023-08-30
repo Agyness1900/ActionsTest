@@ -3,9 +3,8 @@ on:
   workflow_dispatch:
   push:
     branches:
-    - master
     - main
-    - release/pino*
+    - release/*
   #schedule:
     #- cron: 43 9-16/2 * * 1-5 #this is a comment
 jobs:
